@@ -1,0 +1,76 @@
+.app_header {
+  display: flex;
+  justify-content: space-between;
+}
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: transparent !important;
+}
+.app_dropdawon {
+  display: flex;
+}
+.select {
+  display: flex;
+}
+.app {
+  justify-content: space-evenly;
+}
+.data_card {
+  padding-bottom: 40px;
+}
+.app_data {
+  justify-content: space-between;
+  margin-top: 0px;
+  display: flex;
+  padding: 5px 20px !important;
+}
+@media only screen and (max-width: 900px) {
+  .app_data {
+    margin-top: 0px;
+    padding: 5px 5px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .MuiCard-main {
+    text-align: center;
+  }
+  .infoBox_cases {
+    text-align: center;
+  }
+}
+.MuiCard-main {
+  padding: 20px !important;
+  /* text-align: center; */
+}
+
+/* Info Box Working  */
+
+.infoBox_title {
+  font-weight: 500;
+  font-size: 16px !important;
+  color: rgb(0, 0, 0) !important;
+  margin: 5px 0 !important;
+}
+.infoBox_cases {
+  font-size: 30px;
+  font-weight: 900;
+  color: red !important;
+}
+
+/* sdfs */
+.auto_menu_select {
+  font-weight: 600 !important;
+}
+
+.auto_menu_option:nth-of-type(odd) {
+  background-color: #f3f2f8;
+  font-weight: 500 !important;
+}
+/* .auto_menu_option:nth-of-type(even) {
+  background-color: #f3f2f8;
+  font-weight: 700 !important;
+} */
+
+.country_namShow {
+  text-transform: uppercase;
+}
